@@ -25,7 +25,7 @@ import Com.swetha.com.CommonMethods;
 		    System.out.println("click log your self link");
 			driver.findElement((SearchContext) By.name("email_address")).sendKeys(UserName);
 			System.out.println("enter the username");
-		    driver.findElement((SearchContext) By.name("password")).sendKeys("shwethareddY");
+		    driver.findElement((SearchContext) By.name("password")).sendKeys("shwetha");
 		    System.out.println("Enter the password");
 		    driver.findElement((SearchContext) By.xpath(".//*[@id='tdb5']/span[2]")).click();
 		    System.out.println("Click the signin");
